@@ -1,0 +1,146 @@
+.blog-cont{
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+
+    justify-content: center;
+}
+.blog{
+    background-color: white;
+    padding: 15px;
+    width: 320px;
+    margin: 10px;
+    display: flex;
+min-height: 300px;
+word-break: break-word;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.162);
+    transition: all 0.2s;
+}
+.details{
+    width: 100%;
+}
+.blog form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.profile{
+    min-height: 25vh;
+}
+.short{
+    justify-content: space-between;
+}
+.blog:hover{
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.262);
+
+}
+.Blog-cont{
+    width: 100%;
+    min-height: 94vh;
+display: flex;
+align-items: center;
+background-color: var(--light-grey);
+flex-direction: column;
+margin-top: 5vh;
+
+
+}
+.open{
+    width: 95%;
+   align-items: flex-start;
+   min-height: 90vh;
+   /* background-color: white; */
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   
+}
+.open img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.bcontainer{
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.062);
+min-height: 90vh;
+background-color: white;
+margin: 10px;
+
+}
+.cmpny{
+    width: 100%;
+    border-radius: 8px;
+    /* width: 200px; */
+    display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-weight: 800;
+font-size: 1.4rem;
+    height: 100px;
+    background-color: rgb(0, 50, 94);
+}
+.blog .info
+{
+    background-color: rgb(213, 230, 255);
+    border-radius: 3px;
+    padding: 3px 10px;
+    display: flex;
+    font-weight: 800;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.blog-des{
+    padding:10px 20px;
+    
+}
+#tag
+{
+  /* letter-spacing:  7px; */
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.title{
+  
+  font-weight: 800; 
+  font-size: 1.8rem;
+  overflow: hidden;
+
+  display: -webkit-box;
+  /* -webkit-line-clamp: 2s; */
+  -webkit-box-orient: vertical;  
+  -webkit-line-clamp: 2;
+
+}
+
+
+.des{
+    font-weight: 800; 
+    font-size: 0.8rem;
+    overflow: hidden;
+    word-break: break-all;
+  color: gray;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 2s; */
+    -webkit-box-orient: vertical;  
+    -webkit-line-clamp: 4;  
+}
+@media only screen and (min-width: 900px)
+{
+    .open{
+        width: 50vw;
+    }
+}
